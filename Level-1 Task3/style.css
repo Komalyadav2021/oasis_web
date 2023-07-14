@@ -1,1 +1,70 @@
+@import url("http://fonts.googleapis.com/css2?family");
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(100, 191, 191);
+    display: grid;
+    place-items: center;
+}
+
+form{
+    background-color: rgb(212, 232, 218);
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10ox 6px -6px #777;
+    box-shadow: 0 10px 10px #777;
+    border-radius: 30px
+}
+
+#tempCalc label{
+    font-size: 30px;
+}
+
+#temp{
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#temp_diff{
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(147, 133, 133);
+    color: white;
+    border-radius: 20px;
+}
+
+[type="submit"]:hover{
+    color: var(--pink);
+}
+
+#resultcontainer{
+    font-size: 35px;s
+}
